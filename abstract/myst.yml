@@ -1,53 +1,56 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2026-soler-barker-heagy-egu
+  title: Open-source gravity and magnetic forward model of ellipsoids
+  description: Poster presented at EGU2026
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
-  # banner: banner.png
-  thumbnail: thumbnail.png
-  # subject: Electromagnetics
+    - name: Santiago Soler
+      email: ssoler@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-9202-5317
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Kelly Baker
+      orcid: 0009-0005-5740-000X
+      affiliations:
+        - ubc
+        - id: imperial
+          name: Imperial College London, UK
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+  banner: figs/banner.png
+  thumbnail: figs/thumbnail.png
+  subject: Potential fields
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
-  # license: CC-BY-4.0
-  # open_access: true
-  # doi: DOI
-  # date: YYYY-MM-DD
+    title: European Geophysical Union General Assembly 2025
+    url: https://www.egu26.eu
+  license: CC-BY-4.0
+  open_access: true
+  doi: 10.5194/egusphere-egu26-8366
+  date: 2026-05-03
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
-  # github:
-  # bibliography: []
-  # keywords:
-  #   - Controlled source electromagnetics (CSEM)
-  #   - Downhole methods
-  #   - Numerical modelling
-  #   - Electrical properties
-  #   - Magnetic properties
+  github: https://github.com/santisoler/egu2026
+  bibliography:
+    - references.bib
+  keywords:
+    - Ellipsoid
+    - Gravity
+    - Magnetics
+    - Forward model
+    - Self-demagnetization
+    - Python
+    - Open-source
+    - Fatiando a Terra
+    - Harmonica
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: pdf
+      url: poster/egu2026-soler.pdf
+      static: true
   # domains: []

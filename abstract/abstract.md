@@ -1,26 +1,6 @@
-# Open-source gravity and magnetic forward model of ellipsoids
-
-Santiago R. Soler<sup>1</sup>,
-Kelly Baker<sup>1,2</sup>,
-and Lindsey Heagy<sup>1</sup>
-
-> <sup>1</sup> Earth, Ocean and Atmospheric Sciences, University of British
-> Columbia, Vancouver, Canada
-> <br>
-> <sup>2</sup> Imperial College London, UK
-
-| | Information |
-|---:|:----|
-| doi | [10.5194/egusphere-egu26-8366][doi] |
-| Abstract | [EGU26-8366][doi] |
-| Session | [EMRP2.2 Advances in gravity and magnetic field studies and natural resources exploration][emrp2.2] |
-| Where | Hall X2, X2.81 |
-| When | Wednesday, 06 May, 08:30–10:15 (CEST) |
-| Display time | Wednesday, 06 May, 08:30–12:30 (CEST) |
-| Poster | doi: [10.5281/zenodo.19834998][poster-doi] |
-
-> [!NOTE]
-> This repo contains the sources to build the entry in https://appliedgeophysics.org.
+---
+title: "Open-source gravity and magnetic forward model of ellipsoids"
+---
 
 ## Abstract
 
@@ -68,16 +48,10 @@ We followed best practices for its development, including thorough
 testing and extensive documentation, leading to a robust, well-designed, and
 well-tested implementation of such analytic solutions.
 
+## Poster
 
-## License
+[![EGU2026 Poster](poster/egu2026-soler.png)](poster/egu2026-soler.png)
 
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[doi]: https://doi.org/10.5194/egusphere-egu26-8366
-[emrp2.2]: https://www.egu26.eu/session/58387
-[poster-doi]: https://doi.org/10.5281/zenodo.19834998
+```{hint}
+Download as PDF from: [10.5281/zenodo.19834998](https://doi.org/10.5281/zenodo.19834998).
+```
