@@ -31,7 +31,7 @@ project:
   open_access: true
   doi: 10.5194/egusphere-egu26-8366
   date: 2026-05-03
-  abbreviations:
+  # abbreviations:
     # DC: direct current
     # EM: electromagnetics
   github: https://github.com/santisoler/egu2026
